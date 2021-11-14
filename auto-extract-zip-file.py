@@ -1,6 +1,9 @@
-# Import some library
-from zipfile import ZipFile
 import os
+from zipfile import ZipFile
+
+
+# Version number
+__version__ = 0
 
 
 def get_all_file_paths(directory):
